@@ -73,7 +73,7 @@
                 <div class="cap__swiper swiper">
                     <div class="cap__swiper-slider swiper-wrapper">
                         <div class="cap__slide swiper-slide">
-                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img" loading="">
+                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img" loading="lazy">
                             <div class="cart__descr">
                                 <div class="about__item">
                                     <span class="item__name">pepka Cap</span>
@@ -143,20 +143,7 @@
                             </div>
                         </div>
                         <div class="cap__slide swiper-slide">
-                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img">
-                            <div class="cart__descr">
-                                <div class="about__item">
-                                    <span class="item__name">pepka Cap</span>
-                                    <span class="item__price">$28</span>
-                                </div>
-                                <button class="addToBucket" id="addToBucket">
-                                    <img src="images/src/backet__img.svg" alt="" class="bucket__img">
-                                    <img src="images/src/pepka-btn-img.svg" alt="" class="pepka-btn">
-                                </button>
-                            </div>
-                        </div>
-                        <div class="cap__slide swiper-slide">
-                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img">
+                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img" loading="lazy">
                             <div class="cart__descr">
                                 <div class="about__item">
                                     <span class="item__name">pepka Cap</span>
@@ -167,9 +154,66 @@
                                     <img src="images/src/pepka-btn-img.svg" alt="" class="pepka-btn">
                                 </button>
                             </div>
+                            <div class="card__menu">
+                                <div class="card__menu__header">
+                                    <span class="item__name">pepka Cap</span>
+                                    <span class="item__price">$28</span>
+                                </div>
+                                <div class="size__header">
+                                    <span class="select__size">Select Size</span>
+                                    <div class="sizesForm">
+                                        <input type="radio" name="sizeType" id="US-size" class="cards__radio" value="US">
+                                        <label for="US-size" class="sizes__label">US</label>
+                                        <input type="radio" name="sizeType" id="EU-size" class="cards__radio" value="EU" checked>
+                                        <label for="EU-size" class="sizes__label"> EU </label>
+                                    </div>
+                                </div>
+                                <div class="change__size__radios swiper">
+                                    <div class="change__size__wrapper swiper-wrapper">
+                                        <input type="radio" name="size" value="39EU" id="39EU__radio-1" class="size__radio">
+                                        <label for="39EU__radio" class="size__btn swiper-slide"> 39 EU </label>
+                                        <input type="radio" name="size" value="40EU" id="40EU__radio-1" class="size__radio" disabled>
+                                        <label for="40EU__radio" class="size__btn swiper-slide"> 40 EU </label>
+                                        <input type="radio" name="size" value="41EU" id="41EU__radio-1" class="size__radio">
+                                        <label for="41EU__radio" class="size__btn swiper-slide"> 41 EU </label>
+                                        <input type="radio" name="size" value="42EU" id="42EU__radio-1" class="size__radio" disabled>
+                                        <label for="42EU__radio" class="size__btn swiper-slide"> 42 EU </label>
+                                        <input type="radio" name="size" value="43EU" id="43EU__radio-1" class="size__radio">
+                                        <label for="43EU__radio" class="size__btn swiper-slide"> 43 EU </label>
+                                        <input type="radio" name="size" value="44EU" id="44EU__radio-1" class="size__radio">
+                                        <label for="44EU__radio" class="size__btn swiper-slide"> 44 EU </label>
+                                        <input type="radio" name="size" value="45EU" id="45EU__radio-1" class="size__radio" disabled>
+                                        <label for="45EU__radio" class="size__btn swiper-slide"> 45 EU </label>
+                                    </div>
+                                </div>
+                                <div class="select__color">select color</div>
+                                <div class="colors__radios">
+                                    <input type="radio" name="itemColor" id="white__color__radio-1" class="color__radio" checked>
+                                    <label for="white__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-white"></div> 
+                                    </label>
+                                    <input type="radio" name="itemColor" id="blue__color__radio-1" class="color__radio">
+                                    <label for="blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-blue"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="green__color__radio-1" class="color__radio">
+                                    <label for="green__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-green"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="red__color__radio-1" class="color__radio">
+                                    <label for="red__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-red"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="light-blue__color__radio-1" class="color__radio">
+                                    <label for="light-blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-light-blue"></div>
+                                    </label>
+                                </div>
+                                <button class="addToCart" id="addToCart">add to cart</button>
+                            </div>
                         </div>
                         <div class="cap__slide swiper-slide">
-                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img">
+                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img" loading="lazy">
                             <div class="cart__descr">
                                 <div class="about__item">
                                     <span class="item__name">pepka Cap</span>
@@ -180,9 +224,66 @@
                                     <img src="images/src/pepka-btn-img.svg" alt="" class="pepka-btn">
                                 </button>
                             </div>
+                            <div class="card__menu">
+                                <div class="card__menu__header">
+                                    <span class="item__name">pepka Cap</span>
+                                    <span class="item__price">$28</span>
+                                </div>
+                                <div class="size__header">
+                                    <span class="select__size">Select Size</span>
+                                    <div class="sizesForm">
+                                        <input type="radio" name="sizeType" id="US-size" class="cards__radio" value="US">
+                                        <label for="US-size" class="sizes__label">US</label>
+                                        <input type="radio" name="sizeType" id="EU-size" class="cards__radio" value="EU" checked>
+                                        <label for="EU-size" class="sizes__label"> EU </label>
+                                    </div>
+                                </div>
+                                <div class="change__size__radios swiper">
+                                    <div class="change__size__wrapper swiper-wrapper">
+                                        <input type="radio" name="size" value="39EU" id="39EU__radio-2" class="size__radio">
+                                        <label for="39EU__radio" class="size__btn swiper-slide"> 39 EU </label>
+                                        <input type="radio" name="size" value="40EU" id="40EU__radio-2" class="size__radio" disabled>
+                                        <label for="40EU__radio" class="size__btn swiper-slide"> 40 EU </label>
+                                        <input type="radio" name="size" value="41EU" id="41EU__radio-2" class="size__radio">
+                                        <label for="41EU__radio" class="size__btn swiper-slide"> 41 EU </label>
+                                        <input type="radio" name="size" value="42EU" id="42EU__radio-2" class="size__radio" disabled>
+                                        <label for="42EU__radio" class="size__btn swiper-slide"> 42 EU </label>
+                                        <input type="radio" name="size" value="43EU" id="43EU__radio-2" class="size__radio">
+                                        <label for="43EU__radio" class="size__btn swiper-slide"> 43 EU </label>
+                                        <input type="radio" name="size" value="44EU" id="44EU__radio-2" class="size__radio">
+                                        <label for="44EU__radio" class="size__btn swiper-slide"> 44 EU </label>
+                                        <input type="radio" name="size" value="45EU" id="45EU__radio-2" class="size__radio" disabled>
+                                        <label for="45EU__radio" class="size__btn swiper-slide"> 45 EU </label>
+                                    </div>
+                                </div>
+                                <div class="select__color">select color</div>
+                                <div class="colors__radios">
+                                    <input type="radio" name="itemColor" id="white__color__radio-2" class="color__radio" checked>
+                                    <label for="white__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-white"></div> 
+                                    </label>
+                                    <input type="radio" name="itemColor" id="blue__color__radio-2" class="color__radio">
+                                    <label for="blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-blue"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="green__color__radio-2" class="color__radio">
+                                    <label for="green__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-green"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="red__color__radio-2" class="color__radio">
+                                    <label for="red__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-red"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="light-blue__color__radio-2" class="color__radio">
+                                    <label for="light-blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-light-blue"></div>
+                                    </label>
+                                </div>
+                                <button class="addToCart" id="addToCart">add to cart</button>
+                            </div>
                         </div>
                         <div class="cap__slide swiper-slide">
-                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img">
+                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img" loading="lazy">
                             <div class="cart__descr">
                                 <div class="about__item">
                                     <span class="item__name">pepka Cap</span>
@@ -193,9 +294,66 @@
                                     <img src="images/src/pepka-btn-img.svg" alt="" class="pepka-btn">
                                 </button>
                             </div>
+                            <div class="card__menu">
+                                <div class="card__menu__header">
+                                    <span class="item__name">pepka Cap</span>
+                                    <span class="item__price">$28</span>
+                                </div>
+                                <div class="size__header">
+                                    <span class="select__size">Select Size</span>
+                                    <div class="sizesForm">
+                                        <input type="radio" name="sizeType" id="US-size" class="cards__radio" value="US">
+                                        <label for="US-size" class="sizes__label">US</label>
+                                        <input type="radio" name="sizeType" id="EU-size" class="cards__radio" value="EU" checked>
+                                        <label for="EU-size" class="sizes__label"> EU </label>
+                                    </div>
+                                </div>
+                                <div class="change__size__radios swiper">
+                                    <div class="change__size__wrapper swiper-wrapper">
+                                        <input type="radio" name="size" value="39EU" id="39EU__radio-3" class="size__radio">
+                                        <label for="39EU__radio" class="size__btn swiper-slide"> 39 EU </label>
+                                        <input type="radio" name="size" value="40EU" id="40EU__radio-3" class="size__radio" disabled>
+                                        <label for="40EU__radio" class="size__btn swiper-slide"> 40 EU </label>
+                                        <input type="radio" name="size" value="41EU" id="41EU__radio-3" class="size__radio">
+                                        <label for="41EU__radio" class="size__btn swiper-slide"> 41 EU </label>
+                                        <input type="radio" name="size" value="42EU" id="42EU__radio-3" class="size__radio" disabled>
+                                        <label for="42EU__radio" class="size__btn swiper-slide"> 42 EU </label>
+                                        <input type="radio" name="size" value="43EU" id="43EU__radio-3" class="size__radio">
+                                        <label for="43EU__radio" class="size__btn swiper-slide"> 43 EU </label>
+                                        <input type="radio" name="size" value="44EU" id="44EU__radio-3" class="size__radio">
+                                        <label for="44EU__radio" class="size__btn swiper-slide"> 44 EU </label>
+                                        <input type="radio" name="size" value="45EU" id="45EU__radio-3" class="size__radio" disabled>
+                                        <label for="45EU__radio" class="size__btn swiper-slide"> 45 EU </label>
+                                    </div>
+                                </div>
+                                <div class="select__color">select color</div>
+                                <div class="colors__radios">
+                                    <input type="radio" name="itemColor" id="white__color__radio-3" class="color__radio" checked>
+                                    <label for="white__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-white"></div> 
+                                    </label>
+                                    <input type="radio" name="itemColor" id="blue__color__radio-3" class="color__radio">
+                                    <label for="blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-blue"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="green__color__radio-3" class="color__radio">
+                                    <label for="green__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-green"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="red__color__radio-3" class="color__radio">
+                                    <label for="red__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-red"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="light-blue__color__radio-3" class="color__radio">
+                                    <label for="light-blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-light-blue"></div>
+                                    </label>
+                                </div>
+                                <button class="addToCart" id="addToCart">add to cart</button>
+                            </div>
                         </div>
                         <div class="cap__slide swiper-slide">
-                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img">
+                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img" loading="">
                             <div class="cart__descr">
                                 <div class="about__item">
                                     <span class="item__name">pepka Cap</span>
@@ -206,7 +364,154 @@
                                     <img src="images/src/pepka-btn-img.svg" alt="" class="pepka-btn">
                                 </button>
                             </div>
+                            <div class="card__menu">
+                                <div class="card__menu__header">
+                                    <span class="item__name">pepka Cap</span>
+                                    <span class="item__price">$28</span>
+                                </div>
+                                <div class="size__header">
+                                    <span class="select__size">Select Size</span>
+                                    <div class="sizesForm">
+                                        <input type="radio" name="sizeType" id="US-size" class="cards__radio" value="US">
+                                        <label for="US-size" class="sizes__label">US</label>
+                                        <input type="radio" name="sizeType" id="EU-size" class="cards__radio" value="EU" checked>
+                                        <label for="EU-size" class="sizes__label"> EU </label>
+                                    </div>
+                                </div>
+                                <div class="change__size__radios swiper">
+                                    <div class="change__size__wrapper swiper-wrapper">
+                                        <input type="radio" name="size" value="39EU" id="39EU__radio-4" class="size__radio">
+                                        <label for="39EU__radio" class="size__btn swiper-slide"> 39 EU </label>
+                                        <input type="radio" name="size" value="40EU" id="40EU__radio-4" class="size__radio" disabled>
+                                        <label for="40EU__radio" class="size__btn swiper-slide"> 40 EU </label>
+                                        <input type="radio" name="size" value="41EU" id="41EU__radio-4" class="size__radio">
+                                        <label for="41EU__radio" class="size__btn swiper-slide"> 41 EU </label>
+                                        <input type="radio" name="size" value="42EU" id="42EU__radio-4" class="size__radio" disabled>
+                                        <label for="42EU__radio" class="size__btn swiper-slide"> 42 EU </label>
+                                        <input type="radio" name="size" value="43EU" id="43EU__radio-4" class="size__radio">
+                                        <label for="43EU__radio" class="size__btn swiper-slide"> 43 EU </label>
+                                        <input type="radio" name="size" value="44EU" id="44EU__radio-4" class="size__radio">
+                                        <label for="44EU__radio" class="size__btn swiper-slide"> 44 EU </label>
+                                        <input type="radio" name="size" value="45EU" id="45EU__radio-4" class="size__radio" disabled>
+                                        <label for="45EU__radio" class="size__btn swiper-slide"> 45 EU </label>
+                                    </div>
+                                </div>
+                                <div class="select__color">select color</div>
+                                <div class="colors__radios">
+                                    <input type="radio" name="itemColor" id="white__color__radio-4" class="color__radio" checked>
+                                    <label for="white__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-white"></div> 
+                                    </label>
+                                    <input type="radio" name="itemColor" id="blue__color__radio-4" class="color__radio">
+                                    <label for="blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-blue"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="green__color__radio-4" class="color__radio">
+                                    <label for="green__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-green"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="red__color__radio-4" class="color__radio">
+                                    <label for="red__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-red"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="light-blue__color__radio-4" class="color__radio">
+                                    <label for="light-blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-light-blue"></div>
+                                    </label>
+                                </div>
+                                <button class="addToCart" id="addToCart">add to cart</button>
+                            </div>
                         </div>
+                        <div class="cap__slide swiper-slide">
+                            <img src="images/pepka__cap__img.png" alt="" class="slider__cart__img" loading="lazy">
+                            <div class="cart__descr">
+                                <div class="about__item">
+                                    <span class="item__name">pepka Cap</span>
+                                    <span class="item__price">$28</span>
+                                </div>
+                                <button class="addToBucket">
+                                    <img src="images/src/backet__img.svg" alt="" class="bucket__img">
+                                    <img src="images/src/pepka-btn-img.svg" alt="" class="pepka-btn">
+                                </button>
+                            </div>
+                            <div class="card__menu">
+                                <div class="card__menu__header">
+                                    <span class="item__name">pepka Cap</span>
+                                    <span class="item__price">$28</span>
+                                </div>
+                                <div class="size__header">
+                                    <span class="select__size">Select Size</span>
+                                    <div class="sizesForm">
+                                        <input type="radio" name="sizeType" id="US-size" class="cards__radio" value="US">
+                                        <label for="US-size" class="sizes__label">US</label>
+                                        <input type="radio" name="sizeType" id="EU-size" class="cards__radio" value="EU" checked>
+                                        <label for="EU-size" class="sizes__label"> EU </label>
+                                    </div>
+                                </div>
+                                <div class="change__size__radios swiper">
+                                    <div class="change__size__wrapper swiper-wrapper">
+                                        <input type="radio" name="size" value="39EU" id="39EU__radio-5" class="size__radio">
+                                        <label for="39EU__radio" class="size__btn swiper-slide"> 39 EU </label>
+                                        <input type="radio" name="size" value="40EU" id="40EU__radio-5" class="size__radio" disabled>
+                                        <label for="40EU__radio" class="size__btn swiper-slide"> 40 EU </label>
+                                        <input type="radio" name="size" value="41EU" id="41EU__radio-5" class="size__radio">
+                                        <label for="41EU__radio" class="size__btn swiper-slide"> 41 EU </label>
+                                        <input type="radio" name="size" value="42EU" id="42EU__radio-5" class="size__radio" disabled>
+                                        <label for="42EU__radio" class="size__btn swiper-slide"> 42 EU </label>
+                                        <input type="radio" name="size" value="43EU" id="43EU__radio-5" class="size__radio">
+                                        <label for="43EU__radio" class="size__btn swiper-slide"> 43 EU </label>
+                                        <input type="radio" name="size" value="44EU" id="44EU__radio-5" class="size__radio">
+                                        <label for="44EU__radio" class="size__btn swiper-slide"> 44 EU </label>
+                                        <input type="radio" name="size" value="45EU" id="45EU__radio-5" class="size__radio" disabled>
+                                        <label for="45EU__radio" class="size__btn swiper-slide"> 45 EU </label>
+                                    </div>
+                                </div>
+                                <div class="select__color">select color</div>
+                                <div class="colors__radios">
+                                    <input type="radio" name="itemColor" id="white__color__radio-5" class="color__radio" checked>
+                                    <label for="white__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-white"></div> 
+                                    </label>
+                                    <input type="radio" name="itemColor" id="blue__color__radio-5" class="color__radio">
+                                    <label for="blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-blue"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="green__color__radio-5" class="color__radio">
+                                    <label for="green__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-green"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="red__color__radio-5" class="color__radio">
+                                    <label for="red__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-red"></div>
+                                    </label>
+                                    <input type="radio" name="itemColor" id="light-blue__color__radio-5" class="color__radio">
+                                    <label for="light-blue__color__radio" class="colors__radios__label">
+                                        <div class="card__circle card__circle-light-blue"></div>
+                                    </label>
+                                </div>
+                                <button class="addToCart" id="addToCart">add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about__sec">
+            <div class="container">
+                <div class="about__sec__wrapper">
+                    <div class="about__sec__imgs">
+                        <img src="images/about__img.png" alt="" class="about__img">
+                        <img src="images/blue__tshirt.webp" alt="" class="about__tshirt">
+                    </div>
+                    <div class="about__sec__textContent">
+                        <h2 class="about__heading">about <span>copenothing</span></h2>
+                        <p class="about__sec__text">
+                            Are you ready for COPE? Our team has worked hard to create a unique merch for pepe & pndc holders. All our products are manufactured using the most modern technologies and high-quality materials. They are not only stylish and unique, but also comfortable to use. We strive to provide our customers with a high level of satisfaction and joy from shopping.
+                        </p>
+                        <a href="#" class="twitter__link-btn">
+                            <img src="images/src/twitter__logo.svg" alt="" class="twitter__logo">
+                             Twitter
+                        </a>
                     </div>
                 </div>
             </div>
